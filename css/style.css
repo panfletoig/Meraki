@@ -84,10 +84,16 @@ main .section-galeria .siguiente{
     main .section img.cel{
         display: block;
         margin: 30px auto 0px auto;
+        max-width: 200px;
         float: none;
     }
     main .section .section-text{
-        max-width: 500px;
+        max-width: 300px;
+        font-size: 15px;
         margin: 0 auto;
+    }
+    main .section-galeria .instagram-img{
+        width: 250px;
+        height: 355px;
     }
 }
