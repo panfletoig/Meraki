@@ -39,6 +39,7 @@ for(let i=0; i<6; i++){
   iframe.src = estructura+imagenes[i]+embed;
   iframe.alt = "Imagen de Instagram";
   iframe.className = "instagram-img";
+  iframe.loading = "lazy";
   n_img++;
   divGaleria.appendChild(iframe);
 }
@@ -54,8 +55,8 @@ siguiente.addEventListener('click', () => {
     iframe.src = estructura+imagenes[i]+embed;
     iframe.alt = "Imagen de Instagram";
     iframe.className = "instagram-img";
+    iframe.loading = "lazy";
     n_img++;
-
     divGaleria.appendChild(iframe);
   }
 })
