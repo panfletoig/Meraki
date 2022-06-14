@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Rubik:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+main .section .contacto{
+    display: flex;
+    flex-direction: column;
+    max-width: 912px;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: center;
+}
+main .section .contacto input, main .section .contacto textarea, main .section .contacto button{
+    margin: 10px 0;
+    max-height: 500px;
+    cursor: pointer;
+    font-size: 15px;
+    border-style: groove;
+}
+main .section .contacto button{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Rubik';
+    color: #fefefe;
+    background-color: black;
+    box-shadow: 0px 0px 20px 1px rgb(0, 75, 75);
+    border-style: none;
+}
+main .section .contacto button:hover{
+    background-color: #7156f8;
+    transition: 0.3s;
+}
+main .section .contacto .text{
+    height: 200px;
+}

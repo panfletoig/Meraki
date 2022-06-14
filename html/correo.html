@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/form.css">
     <!-- iconos -->
     <script src="https://kit.fontawesome.com/7eae5f5116.js" crossorigin="anonymous"></script>
     <!-- scripts -->
@@ -39,16 +40,16 @@
     </header>
     <main>
         <section class="section">
-            <form name="form-contacto" netlify>
+            <form name="form-contacto" netlify class="contacto">
                 <h1 class="section-title">Contacto</h1>
+                <h2 class=" section-subtitle">Email</h2>
+                <input type="email" name="email" required>
+                <h2 class=" section-subtitle">Nombre</h2>
+                <input type="text" name="name" required>
                 <h2 class="section-subtitle">Motivo</h2>
                 <input type="text" name="motivo" required>
-                <h2 class="section-subtitle">Nombre</h2>
-                <input type="text" name="name" required>
-                <h2 class="section-subtitle">Email</h2>
-                <input type="email" name="email" required>
                 <h2 class="section-subtitle">Mensaje</h2>
-                <input type="text" name="razones">
+                <textarea class="text" type="text" name="razones" rows="5" cols="60">a</textarea>
                 <button type="submit">Enviar</button>
             </form>
         </section>
